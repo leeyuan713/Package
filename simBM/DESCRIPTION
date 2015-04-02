@@ -1,0 +1,7 @@
+Package: simBM
+Version: 0.1
+Author: Yuan Li
+Maintainer: Yuan Li <li438@wisc.edu>
+License: MIT + file LICENSE
+Title: Simulate BM data
+Description: Simulate BM data
