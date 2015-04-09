@@ -24,6 +24,23 @@ Type 'q()' to quit R.
 > 
 > base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
 > cleanEx()
+> nameEx("plotBM")
+> ### * plotBM
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: plotBM
+> ### Title: Plot BM
+> ### Aliases: plotBM
+> 
+> ### ** Examples
+> 
+> x <- simBM(1000,1)
+> plotBM(x)
+> 
+> 
+> 
+> cleanEx()
 > nameEx("simBM")
 > ### * simBM
 > 
@@ -49,7 +66,7 @@ Type 'q()' to quit R.
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  0.058 0.002 0.061 0 0 
+Time elapsed:  0.063 0.003 0.075 0 0 
 > grDevices::dev.off()
 null device 
           1 

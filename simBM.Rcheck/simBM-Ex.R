@@ -5,6 +5,23 @@ library('simBM')
 
 base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
 cleanEx()
+nameEx("plotBM")
+### * plotBM
+
+flush(stderr()); flush(stdout())
+
+### Name: plotBM
+### Title: Plot BM
+### Aliases: plotBM
+
+### ** Examples
+
+x <- simBM(1000,1)
+plotBM(x)
+
+
+
+cleanEx()
 nameEx("simBM")
 ### * simBM
 

@@ -5,5 +5,5 @@ Maintainer: Yuan Li <li438@wisc.edu>
 License: GPL-2
 Title: Simulate BM data
 Description: Simulate BM data
-Packaged: 2015-04-09 18:02:01 UTC; yuanli
-Built: R 3.1.2; ; 2015-04-09 18:03:47 UTC; unix
+Packaged: 2015-04-09 18:13:16 UTC; yuanli
+Built: R 3.1.2; ; 2015-04-09 18:13:25 UTC; unix

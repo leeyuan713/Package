@@ -7,12 +7,14 @@ output: html_document
 
 First we load the "simBM" package.
 ```{r loadlibrary}
-    library(simBM)
+library(simBM)
 ```
 
 Then we Simulate 2 dimension brownian motion and plot the path figure.
 ```{r simulate2d}
 x <- simBM(10000, 1)
+```
+```{r fig.width=4,fig.height=4}
 plotBM(x)
 ```
 
