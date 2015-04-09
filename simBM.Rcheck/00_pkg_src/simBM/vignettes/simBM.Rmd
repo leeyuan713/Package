@@ -1,0 +1,18 @@
+---
+title: SimBM
+author: "Yuan Li"
+date: "9 April 2015"
+output: html_document
+---
+
+First we load the "simBM" package.
+```{r loadlibrary}
+    library(simBM)
+```
+
+Then we Simulate 2 dimension brownian motion.
+```{r simulate2d}
+x <- simBM(10000, 1)
+```
+
+      
