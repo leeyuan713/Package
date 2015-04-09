@@ -10,9 +10,10 @@ First we load the "simBM" package.
     library(simBM)
 ```
 
-Then we Simulate 2 dimension brownian motion.
+Then we Simulate 2 dimension brownian motion and plot the path figure.
 ```{r simulate2d}
 x <- simBM(10000, 1)
+plotBM(x)
 ```
 
       
