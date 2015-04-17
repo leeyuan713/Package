@@ -5,3 +5,7 @@ Maintainer: Yuan Li <li438@wisc.edu>
 License: GPL-2
 Title: Simulate BM data
 Description: Simulate BM data
+Suggests: 
+  testthat,
+  knitr
+VignetteBuilder: knitr

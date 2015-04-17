@@ -1,3 +1,7 @@
+<!--
+%\VignetteEngine{knitr::knitr}
+%\VignetteIndexEntry{SimBM}
+-->
 ---
 title: SimBM
 author: "Yuan Li"
